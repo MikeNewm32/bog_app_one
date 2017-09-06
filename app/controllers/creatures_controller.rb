@@ -3,4 +3,8 @@ class CreaturesController < ApplicationController
         @creatures = Creature.all
     end
 
+    def new
+
+    end
+
 end
